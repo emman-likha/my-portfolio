@@ -18,7 +18,7 @@ function App() {
   
     <ul className="flex gap-5 static ">
       <li>
-        <a href="#welcome-section" className="  hover:text-cyan-100 hover:ml-3.5 transition-all duration-300 hover:text-3xl hover:static ">HOME</a>
+        <a href="#welcome-section" className="hover:text-cyan-100 hover:ml-3.5 transition-all duration-300 hover:text-3xl hover:static ">HOME</a>
       </li>
       <li>|</li>
       <li>
@@ -38,7 +38,7 @@ function App() {
    </header>
 
   
-  <section class="w-full h-screen bg-gray-900  flex justify-center items-center flex-col" id="welcome-section ">
+  <section class="w-full h-screen bg-gray-900  flex justify-center items-center flex-col" id="welcome-section">
     <h1 class="mb-20 -mt-10 text-cyan-400 flex flex-col items-center text-4xl gap-3 font-[Quicksand]">WELCOME TO MY <span class="text-9xl font-[Quicksand] font-black">PORTFOLIO</span></h1>
     <div class="flex flex-row gap-30 bg-cyan-950 justify-center">
 
