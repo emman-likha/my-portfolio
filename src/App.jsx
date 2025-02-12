@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      {/* Navbar */}
+    
       <header className="fixed top-0 left-0 w-full bg-gray-900 shadow-lg p-3 z-50">
         <nav className="flex flex-col items-center max-w-6xl mx-auto px-4 md:flex-row text-center">
           <div className="md:hidden w-full flex justify-end">
@@ -116,59 +116,76 @@ function App() {
   </section>
 </div>
 
+<section id="projects" className="w-full bg-gray-800 py-20 text-center font-[poppins]">
+  <h2 className="text-3xl md:text-7xl text-cyan-400 font-bold">Projects</h2>
+  <p className="text-xl md:text-3xl text-white mt-4">Check out some of my latest projects.</p>
+
+  <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-6xl mx-auto">
+ 
+    <a href="#project-One" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <img src="./src/assets/2.png" alt="Project One" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">AD-LUKA-trade</h3>
+        <h2 className="text-lg text-white">The most blockbuster trade in NBA history-BLOG</h2>
+      </div>
+    </a>
+
+ 
+    <a href="#project-Two" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <img src="./src/assets/3.png" alt="Project Two" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">DoctorT Animal Clinic</h3>
+        <h2 className="text-lg text-white">A web application for Doctor T Animal Clinic where they showcase their services, can appoint also.</h2>
+      </div>
+    </a>
+
+    
+    <a href="#project-Three" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <img src="./src/assets/4.jpg" alt="Project Three" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">How To Be Successful in School</h3>
+        <h2 className="text-lg text-white">An Infographic Photo tend to motivates netizens.</h2>
+      </div>
+    </a>
+
+    
+    <a href="#project-Four" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <img src="./src/assets/5.png" alt="Project Four" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">Survey-Form</h3>
+        <h2 className="text-lg text-white">This is one of my passion, to help and motivate others. </h2>
+      </div>
+    </a>
+
+    
+    <a href="#project-Five" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <img src="./src/assets/6.jpg" alt="Project Five" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">Jersey Mock Up</h3>
+        <h2 className="text-lg text-white">One of my graphic art as a working student.</h2>
+      </div>
+    </a>
 
 
-
-
-
-     {/* Projects Section */}
-     <section id="projects" className="w-full bg-gray-800 py-20 text-center font-[poppins]">
-  <h2 className="text-4xl text-cyan-400 font-bold">Projects</h2>
-  <p className="text-white mt-4">Check out some of my latest projects.</p>
-
-  <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-6xl mx-auto font-[poppins]">
-    {/* Project Cards */}
-    {["One", "Two", "Three", "Four", "Five", "Six"].map((project, index) => (
-      <a
-        key={index}
-        href={`#project-${project}`}
-        className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:shadow-cyan-400/50 transform hover:scale-105 transition duration-300 cursor-pointer"
-      >
-        <h3 className="text-xl text-cyan-400 font-bold">Project {project}</h3>
-        <p className="text-white mt-2">A brief description of the project.</p>
-      </a>
-    ))}
+    <a href="#project-Five" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
+      <div  className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-2xl text-cyan-400 font-bold">Coming soon...</h3>
+        <h2 className="text-lg text-white">When shore 360 hires me.</h2>
+      </div>
+    </a>
   </div>
 </section>
 
-{/* Placeholder Sections for Projects */}
-{["One", "Two", "Three", "Four", "Five", "Six"].map((project, index) => (
-  <section
-    key={index}
-    id={`project-${project}`}
-    className="w-full bg-gray-900 text-white py-10 flex items-center justify-center font-[poppins]"  // Adjusted to have padding
-  >
-    <div className="text-center max-w-4xl w-full p-6 bg-gray-800 rounded-3xl shadow-xl">
-      <h2 className="text-4xl text-cyan-400 font-bold mb-4">Project {project} Content</h2>
-      <p className="text-white mt-4 mb-6">
-        This is where the content for Project {project} will go. You can add more details about the project here.
-      </p>
 
-      {/* Layout Placeholder Box */}
-      <div className="w-full h-60 bg-gray-700 rounded-xl mx-auto">
-        {/* Placeholder for images or other content */}
-        <p className="text-white text-xl text-center pt-24">Project {project} Image/Content</p>
-      </div>
-    </div>
-  </section>
-))}
-
-
-
-      {/* About Me Section */}
       <section id="about-me" className="w-full  bg-gray-700 py-20 font-[poppins]">
   <div className="max-w-6xl mx-auto px-4 md:flex md:items-center md:gap-10">
-    {/* Left Column: About Me Text */}
     <div className="md:flex-1 font-[poppins]">
       <h2 className="text-4xl text-cyan-400 font-bold mb-6">About Me</h2>
       <p className="text-lg md:text-xl font-[poppins] text-white leading-relaxed">
@@ -192,7 +209,7 @@ function App() {
       </div>
     </div>
 
-    {/* Right Column: Picture + Resume Download */}
+
     <div className="md:flex-1 flex flex-col items-center mt-10 md:mt-0 font-[poppins]">
       <img
         src="./src/assets/my-picture.jpg"
@@ -209,47 +226,50 @@ function App() {
     </div>
   </div>
 
-  {/* Contact Form */}
-  <div className="max-w-4xl mx-auto mt-16 bg-gray-800 p-8 rounded-lg shadow-lg ">
-    <h3 className="text-3xl text-cyan-400 font-bold mb-6 font-[poppins]">Get in Touch</h3>
-    <form>
-      <div className="mb-4">
-        <label className="block text-cyan-400 text-lg mb-2" htmlFor="suggestion">
-          Your Suggestion or Message
-        </label>
-        <textarea
-          id="suggestion"
-          className="w-full p-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
-          rows="5"
-          placeholder="Write your message here..."
-          required
-        ></textarea>
-      </div>
-      <div className="mb-4">
+<div className="max-w-4xl mx-auto mt-16 bg-gray-800 p-8 rounded-lg shadow-lg">
+  <h3 className="text-3xl text-cyan-400 font-bold mb-6 font-[poppins]">Get in Touch w/ me!</h3>
+  <form>
+    <div className="mb-4">
+      <label className="block text-cyan-400 text-lg mb-2" htmlFor="suggestion">
+        Your Suggestions
+      </label>
+      <textarea
+        id="suggestion"
+        className="w-full p-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+        rows="5"
+        placeholder="Write your message here..."
+        required
+      ></textarea>
+    </div>
+    <div className="mb-4 flex items-end justify-between gap-4">
+      <div className="flex-1">
         <label className="block text-cyan-400 text-lg mb-2" htmlFor="email">
           Your Email
         </label>
         <input
           id="email"
           type="email"
-          className="w-full p-4 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
+          className="w-full p-4 h-14 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-400"
           placeholder="Enter your email"
           required
         />
       </div>
       <button
         type="submit"
-        className="bg-cyan-400 text-gray-900 px-6 py-3 rounded-lg shadow-lg hover:bg-cyan-300 transition"
+        className="bg-cyan-400 text-gray-900 px-6 h-14 rounded-lg shadow-lg hover:bg-cyan-300 transition"
       >
         Submit
       </button>
-    </form>
-  </div>
+    </div>
+  </form>
+</div>
+
+
+
 </section>
 
 
 
-      {/* Footer */}
       <footer className=" bg-gray-700 text-center text-cyan-400 py-6">
         <p>© 2025 John Emmanuel. All rights reserved.</p>
       </footer>
