@@ -197,22 +197,29 @@ function App() {
         <span className="text-cyan-400">cooking</span>, or working out in the <span className="text-cyan-400">gym</span>.
       </p>
       <div className="flex gap-4 mt-8">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/jaybulaon_/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram text-4xl text-cyan-400 hover:text-white transition-transform transform hover:scale-110"></i>
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=61569696064599/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-facebook text-4xl text-cyan-400 hover:text-white transition-transform transform hover:scale-110"></i>
         </a>
         <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-tiktok text-4xl text-cyan-400 hover:text-white transition-transform transform hover:scale-110"></i>
         </a>
+        <a href="https://www.linkedin.com/in/john-emmanuel-bulaon/" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-linkedin text-4xl text-cyan-400 hover:text-white transition-transform transform hover:scale-110"></i>
+</a>
+
+<a href="https://github.com/emman-likha" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-github text-4xl text-cyan-400 hover:text-white transition-transform transform hover:scale-110"></i>
+</a>
       </div>
     </div>
 
 
     <div className="md:flex-1 flex flex-col items-center mt-10 md:mt-0 font-[poppins]">
       <img
-        src="public/my-picture.jpg"
+        src="./my-picture.JPG"
         alt="John Emmanuel"
         className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-lg mb-6 transition-transform transform hover:scale-110 hover:rotate-3"
       />
