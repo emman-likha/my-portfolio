@@ -100,7 +100,7 @@ function App() {
 
         <div>
           <img
-            src="./src/assets/coding.png"
+            src="./coding.png"
             alt="Coding Illustration"
             className="hidden md:block w-40 md:w-80 drop-shadow-lg shadow-cyan-500 ml-9"
           />
@@ -123,7 +123,7 @@ function App() {
   <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-6xl mx-auto">
  
     <a href="#project-One" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
-      <img src="./src/assets/2.png" alt="Project One" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <img src="./2.png" alt="Project One" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-2xl text-cyan-400 font-bold">AD-LUKA-trade</h3>
@@ -133,7 +133,7 @@ function App() {
 
  
     <a href="#project-Two" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
-      <img src="./src/assets/3.png" alt="Project Two" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <img src="./3.png" alt="Project Two" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-2xl text-cyan-400 font-bold">DoctorT Animal Clinic</h3>
@@ -143,7 +143,7 @@ function App() {
 
     
     <a href="#project-Three" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
-      <img src="./src/assets/4.jpg" alt="Project Three" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <img src="./4.jpg" alt="Project Three" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-2xl text-cyan-400 font-bold">How To Be Successful in School</h3>
@@ -153,7 +153,7 @@ function App() {
 
     
     <a href="#project-Four" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
-      <img src="./src/assets/5.png" alt="Project Four" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <img src="./5.png" alt="Project Four" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-2xl text-cyan-400 font-bold">Survey-Form</h3>
@@ -163,7 +163,7 @@ function App() {
 
     
     <a href="#project-Five" className="group relative bg-gray-700 p-4 rounded-xl shadow-lg hover:shadow-cyan-400/50 transition duration-300 cursor-pointer h-[420px] overflow-hidden">
-      <img src="./src/assets/6.jpg" alt="Project Five" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
+      <img src="./6.jpg" alt="Project Five" className="w-full h-full object-cover rounded-md transition-opacity duration-300 group-hover:opacity-20" />
       <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-2xl text-cyan-400 font-bold">Jersey Mock Up</h3>
@@ -212,12 +212,12 @@ function App() {
 
     <div className="md:flex-1 flex flex-col items-center mt-10 md:mt-0 font-[poppins]">
       <img
-        src="./src/assets/my-picture.jpg"
+        src="public/my-picture.jpg"
         alt="John Emmanuel"
         className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-lg mb-6 transition-transform transform hover:scale-110 hover:rotate-3"
       />
       <a
-        href="./src/assets/Bulaon-John-Emmanuel-Resume.pdf"
+        href="./Bulaon-John-Emmanuel-Resume.pdf"
         download
         className="bg-cyan-400 text-gray-900 px-6 py-3 rounded-lg shadow-lg hover:bg-cyan-300 transition font-[poppins]"
       >
