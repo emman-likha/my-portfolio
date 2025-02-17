@@ -45,7 +45,7 @@ function App() {
         <nav className="flex flex-col items-center max-w-6xl mx-auto px-4 md:flex-row text-center">
           <div className="md:hidden w-full flex justify-end">
             <button
-              className="text-cyan-400 focus:outline-none text-2xl"
+              className="text-cyan-400 focus:outline-none text-2xl transition-all duration-300 ease-in-out "
               onClick={() => setMenuOpen((prev) => !prev)}
             >
               ☰
@@ -89,12 +89,12 @@ function App() {
   <section id="welcome-section">
     <div className="w-full h-screen flex flex-col font-[poppins]">
 
-      <div className="flex-1 bg-gray-900 flex items-end md:justify-between justify-center text-center md:text-start px-4 md:px-20 pb-0">
+      <div className="flex-1 bg-gray-900 flex items-end justify-center md:justify-between  text-center md:text-start px-4 md:px-20 pb-0">
         <div>
           <h1 className="text-2xl md:text-5xl text-cyan-500">
-            Hola! <span className="text-xl md:text-3xl">I am </span>
+            Hola! <span className="text-xl md:text-3xl ">I am </span>
             <strong className="text-2xl md:text-7xl text-cyan-400">John Emmanuel</strong>
-            <span className="text-xl md:text-3xl"> and I am a</span>
+            <span className="text-2xl md:text-3xl"> and I am a</span>
           </h1>
         </div>
 
@@ -108,7 +108,7 @@ function App() {
       </div>
       
       <div className="flex-1 bg-gray-800 flex md:justify-start justify-center px-4 md:px-20 pt-0">
-        <h1 className="text-3xl md:text-7xl text-white">
+        <h1 className="text-2xl md:text-7xl text-white font-bold">
           {currentText}
         </h1>
       </div>
